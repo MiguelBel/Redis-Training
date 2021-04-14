@@ -1,0 +1,8 @@
+redis-benchmark -n 100000 -q script load "redis.call('info')"
+redis-benchmark -n 100000 -q script load "redis.call('lpush', 'wadus', 'content')"
+
+redis-cli DEBUG POPULATE 50 test 10000000
+time redis-cli --raw keys test:* # real    0m0.009s
+redis-cli DEBUG POPULATE 500 test 10000000
+time redis-cli --raw keys test:* # real    0m0.027s, yes tty but...
+

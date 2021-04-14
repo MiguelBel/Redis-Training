@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS app;
+
+USE app;
+
+CREATE TABLE IF NOT EXISTS information (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  k VARCHAR(255),
+  v VARCHAR(255)
+)  ENGINE=INNODB;
+
+INSERT INTO information (k, v) VALUES ('visits', 298);
+
+SELECT v FROM information WHERE k='visits';

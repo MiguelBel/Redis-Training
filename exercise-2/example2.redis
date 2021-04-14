@@ -1,0 +1,22 @@
+SADD products apple fruit fanta
+
+HSET category:apple "fruit"
+HSET category:pear "fruit"
+HSET category:fanta "drink"
+
+RPUSH sales:apple 200 30
+RPUSH sales:pear 100 100 50
+RPUSH sales:fanta 400 100
+
+-- Get sales by product
+
+hehehehehehehehehhe, unveil your favourite language program and write some code:
+
+result = {}
+
+"SMEMBERS products".each do |product|
+   sum = "LRANGE sales#{product} 0 -1".sum
+   result[product] = sum
+end
+
+result.order
