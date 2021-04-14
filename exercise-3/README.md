@@ -19,3 +19,4 @@ Hint:
 
 - [EXPIRE command](https://redis.io/commands/expire)
 - [TTL command](https://redis.io/commands/expire)
+- [redis-rb](https://github.com/redis/redis-rb)

@@ -20,7 +20,7 @@ Store and retrieve the next information in redis selecting the appropiate dataty
     - PLATOP-2_disable_pt_domain
     - PLATOP-3_disable_pt_domain
 
-4. Name and ages of a team under the key `team`:
+4. Name and ages of a team under the key `team_ages`:
 
     - Jesus, 36 years old
     - Janis, 27 years old
