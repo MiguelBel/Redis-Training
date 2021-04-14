@@ -53,5 +53,6 @@ To do the execises:
 Links:
 
 - [Redis Official Documentation](https://redis.io/documentation)
+- [Redis Data types intro](https://redis.io/topics/data-types-intro)
 - [Redis CLI](https://redis.io/topics/rediscli)
 - [Redis benchmarks](https://redis.io/topics/benchmarks)
