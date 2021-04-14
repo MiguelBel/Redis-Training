@@ -32,6 +32,7 @@ What is redis?:
 - Schemaless
 - "Weakly typed" ?
 - In ANSI C
+- Single threaded
 - Think of it as the typical structures persisted (strings, arrays and hashes)
 - Very fast
 - Commands in the form of: COMMAND key_name argument1 [...] i.e: SET hola mundo, sets key hola with value mundo
