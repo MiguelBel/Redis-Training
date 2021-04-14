@@ -2,6 +2,8 @@
 
 Content of the redis training.
 
+The Workshop take around an hour and a half. It is intended for people with zero knowledge of Redis.
+
 Prior knowledge:
 
 - Basic RMDBS (yes, SQL)
