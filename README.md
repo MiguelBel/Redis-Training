@@ -42,6 +42,14 @@ Content:
 - Part 2: Relational vs Key-Value and complexity
 - Part 3: Practical case
 
+To do the execises:
+
+`make start-containers` to start the Redis instance and the MySQL instance
+`make stop-containers` to stop the Redis instance and the MySQL instance
+`make redis-cli` to start a redis-cli
+`make shell-cli` to start a shell in the redis container
+`make rdbms-cli` to start a cli of MySQL
+
 Links:
 
 - [Redis Official Documentation](https://redis.io/documentation)
